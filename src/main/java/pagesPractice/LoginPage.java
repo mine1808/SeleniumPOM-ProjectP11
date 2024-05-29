@@ -29,5 +29,4 @@ public class LoginPage {
     public void clickBtn() {
         driver.findElement(submitBtn).click();
     }
-
 }
