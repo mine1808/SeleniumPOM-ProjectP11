@@ -32,7 +32,7 @@ public class LoginTestCase {
             // Verify congratulationMessage
             successPage.getCongratulationMessage();
 
-            // Veryfy url
+            // Verify url
             String expectedURL = "https://practicetestautomation.com/logged-in-successfully/";
             Assert.assertEquals(successPage.getActualUrl(), expectedURL);
 
